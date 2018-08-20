@@ -6,9 +6,9 @@
 
 **Пример использования:**
 
-let decimalInput = new DecimalInput({elem: document.body.querySelector('#elem'), integer: false
+`let decimalInput = new DecimalInput({elem: document.body.querySelector('#elem'), integer: false
 ,numberFormat: new Intl.NumberFormat('ru', {minimumFractionDigits:2, maximumFractionDigits:2})
-  });
+ });`
 
   @options.elem - 1 параметр поле, в которое вводится текст. Например <input type ='text'/>
   @optons.integer - 2 не обязательный параметр параметр- даёт возможность ввода только целочисленных значений. По умалчанию false.
